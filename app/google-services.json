@@ -34,43 +34,6 @@
           ]
         }
       }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:965848330029:android:808e989430860b80",
-        "android_client_info": {
-          "package_name": "com.vonzuu.eats"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "965848330029-d66885fp431shpmo1ad65lkcelorvtqn.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.vonzuu.eats",
-            "certificate_hash": "0b9057aed4719db54283f17bd62e341808d7253c"
-          }
-        },
-        {
-          "client_id": "965848330029-png82v88ngtnd1i2cemrloeon4n0auok.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBHoigXFiM4QbupZ1unlboMnZnzqq006Co"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "965848330029-png82v88ngtnd1i2cemrloeon4n0auok.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
     }
   ],
   "configuration_version": "1"

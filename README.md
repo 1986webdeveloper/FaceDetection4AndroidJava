@@ -22,7 +22,7 @@ implementation 'com.google.firebase:firebase-ml-vision:23.0.0'
 implementation 'com.google.firebase:firebase-ml-vision-face-model:18.0.0'
 ```
 - draw method is used to draw face inside FaceGraphic class
-```
+```Java
 @Override
     public void draw(Canvas canvas) {
         FirebaseVisionFace face = firebaseVisionFace;

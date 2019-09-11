@@ -94,6 +94,6 @@ cameraSource.setMachineLearningFrameProcessor(new FaceDetectionProcessor(getReso
         drawLandmarkPosition(canvas, face, FirebaseVisionFaceLandmark.MOUTH_RIGHT);
     }
 ```
-<b>output:</b>
+<b>output :</b>
 
 ![alt text](https://github.com/1986webdeveloper/FaceDetection4AndroidKotlin/blob/master/ezgif-4-72e974aee956.gif)

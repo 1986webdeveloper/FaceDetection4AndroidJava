@@ -15,14 +15,14 @@ You can detect following things with ML Kit's face detection API
 - Left Ear and Right Ear
 - FaceContour
 
-Usage
+<b>Usage</b>
 1 Add below code in app level gradle
-```
+```gradle
 implementation 'com.google.firebase:firebase-ml-vision:23.0.0'
 implementation 'com.google.firebase:firebase-ml-vision-face-model:18.0.0'
 ```
 2 You need to add FaceDetectionProcessor in your activity. Add below code in your FaceDetectionActivity
-```
+```java
 cameraSource.setMachineLearningFrameProcessor(new FaceDetectionProcessor(getResources()));
 ```
 3 draw method is used to draw face inside FaceGraphic class
@@ -93,6 +93,6 @@ cameraSource.setMachineLearningFrameProcessor(new FaceDetectionProcessor(getReso
         drawLandmarkPosition(canvas, face, FirebaseVisionFaceLandmark.MOUTH_RIGHT);
     }
 ```
-Output:
+<b>output:</b>
 
 ![alt text](https://github.com/1986webdeveloper/FaceDetection4AndroidKotlin/blob/master/ezgif-4-72e974aee956.gif)

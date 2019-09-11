@@ -16,16 +16,16 @@ You can detect following things with ML Kit's face detection API
 - FaceContour
 
 Usage
-- Add below code in app level gradle
+1 Add below code in app level gradle
 ```
 implementation 'com.google.firebase:firebase-ml-vision:23.0.0'
 implementation 'com.google.firebase:firebase-ml-vision-face-model:18.0.0'
 ```
-- You need to add FaceDetectionProcessor in your activity. Add below code in your FaceDetectionActivity
+2 You need to add FaceDetectionProcessor in your activity. Add below code in your FaceDetectionActivity
 ```
 cameraSource.setMachineLearningFrameProcessor(new FaceDetectionProcessor(getResources()));
 ```
-- draw method is used to draw face inside FaceGraphic class
+3 draw method is used to draw face inside FaceGraphic class
 ```Java
 @Override
     public void draw(Canvas canvas) {

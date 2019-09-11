@@ -21,6 +21,10 @@ Usage
 implementation 'com.google.firebase:firebase-ml-vision:23.0.0'
 implementation 'com.google.firebase:firebase-ml-vision-face-model:18.0.0'
 ```
+- You need to add FaceDetectionProcessor in your activity. Add below code in your FaceDetectionActivity
+```
+cameraSource.setMachineLearningFrameProcessor(new FaceDetectionProcessor(getResources()));
+```
 - draw method is used to draw face inside FaceGraphic class
 ```Java
 @Override

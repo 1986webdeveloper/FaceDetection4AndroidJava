@@ -4,7 +4,7 @@ This is face detection library for Android with Java code.
 
 It is easy to implement face detection With Firebase ML Kit's face detection API, you can detect faces in an image, identify key facial features, and get the contours of detected faces.
 
-You can detect following things with ML Kit's face detection API
+<b>You can detect following things with ML Kit's face detection API :</b>
 - Face
 - Smiling probability
 - Nose

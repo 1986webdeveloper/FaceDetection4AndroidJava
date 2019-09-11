@@ -15,7 +15,7 @@ It is easy to implement face detection With Firebase ML Kit's face detection API
 - Left Ear and Right Ear
 - FaceContour
 
-<b>Usage</b>
+<b>Usage :</b>
 
 1 Add below code in app level gradle
 ```gradle

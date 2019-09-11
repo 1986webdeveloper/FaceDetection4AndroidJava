@@ -16,6 +16,7 @@ It is easy to implement face detection With Firebase ML Kit's face detection API
 - FaceContour
 
 <b>Usage</b>
+
 1 Add below code in app level gradle
 ```gradle
 implementation 'com.google.firebase:firebase-ml-vision:23.0.0'
